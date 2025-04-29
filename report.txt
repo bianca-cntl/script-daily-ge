@@ -1,0 +1,63 @@
+🔄 Acessando o GitHub Project como usuário logado...
+DAILY HOJE: 09/04
+
+✅ Encontradas 8 issues de sustentação com data próxima::
+
+
+
+1. Contele gestor de equipes, sustentação, problema ao tentar contratar mais usuários
+    🔗 URL: https://github.com/contele/demandas_para_desenvolvimento/issues/3993
+    📅 Data: Apr 8, 2025
+    🙋 Responsável: <@MU01H0KBAR3J>
+    🚦 Status: WIP (Estórias)
+
+
+2. App contele equipes, sustentação, perda de assinatura
+    🔗 URL: https://github.com/contele/demandas_para_desenvolvimento/issues/3960
+    📅 Data: Apr 11, 2025
+    🙋 Responsável: <@U03AX18GLRM>
+    🚦 Status: Validando
+
+
+3. Contele gestor de equipes, sustentação, erro ao calcular rotas no relatório de reembolso
+    🔗 URL: https://github.com/contele/demandas_para_desenvolvimento/issues/4011
+    📅 Data: Apr 12, 2025
+    🙋 Responsável: <@U03K9J7J308>
+    🚦 Status: To do
+
+
+4. App contele equipes, sustentação, fila de sincronização travada
+    🔗 URL: https://github.com/contele/demandas_para_desenvolvimento/issues/3963
+    📅 Data: Apr 12, 2025
+    🙋 Responsável: undefined
+    🚦 Status: To do
+
+
+5. Contele gestor de equipes, sustentação, erro ao acessar ordem de serviço (o.s não encontrada)
+    🔗 URL: https://github.com/contele/demandas_para_desenvolvimento/issues/3981
+    📅 Data: Apr 12, 2025
+    🙋 Responsável: <@MU01H0KBAR3J>
+    🚦 Status: Aguardando Deploy (Estórias)
+
+
+6. App contele equipes, sustentação, erro na sincronização de formulários recém-criados no app
+    🔗 URL: https://github.com/contele/demandas_para_desenvolvimento/issues/3846
+    📅 Data: Apr 14, 2025
+    🙋 Responsável: <@U03K9J7J308>
+    🚦 Status: Aguardando Validação
+
+
+7. App contele equipes, sustentação, perda de check-out na visita após sincronização
+    🔗 URL: https://github.com/contele/demandas_para_desenvolvimento/issues/3979
+    📅 Data: Apr 15, 2025
+    🙋 Responsável: <@U063KU57N5C>
+    🚦 Status: WIP (Estórias)
+
+
+8. Contele gestor de equipes, sustentação, visita reagendada sem registro no relatório
+    🔗 URL: https://github.com/contele/demandas_para_desenvolvimento/issues/3921
+    📅 Data: Apr 18, 2025
+    🙋 Responsável: <@U03K9J7J308>
+    🚦 Status: Aguardando Deploy (Estórias)
+
+

@@ -1,0 +1,30 @@
+name: Script Daily GE
+
+on:
+  schedule:
+    - cron: '0 13 * * *' # 10h no horário de Brasília (13h UTC)
+  workflow_dispatch:  # permite rodar manualmente pelo GitHub se quiser
+
+jobs:
+  playwright-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Instalar navegadores do Playwright
+        run: npx playwright install --with-deps
+
+      - name: Rodar script do relatório
+        run: node extractIssuesFromProject.js
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_

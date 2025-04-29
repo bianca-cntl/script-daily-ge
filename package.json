@@ -1,0 +1,20 @@
+{
+  "name": "biancamagalhaes",
+  "version": "1.0.0",
+  "description": "Script de relatório diário com Playwright e GitHub Projects",
+  "main": "extractIssuesFromProject.js",
+  "scripts": {
+    "start": "node extractIssuesFromProject.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/graphql": "^8.2.1",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "dayjs": "^1.11.13",
+    "playwright": "^1.51.1"
+  }
+}
