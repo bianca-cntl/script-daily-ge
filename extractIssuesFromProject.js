@@ -125,7 +125,7 @@ fs.writeFileSync('github-cookies.json', process.env.COOKIES_GITHUB_PROJECT);
 
     try {
       const payload = { text: textoFormatado };
-      const response = await axios.post(webhookUrl, payload);
+      //const response = await axios.post(webhookUrl, payload);
       console.log('✅ Enviado para o Slack!');
     } catch (error) {
       console.error('❌ Erro ao enviar para o Slack:', error.message);
