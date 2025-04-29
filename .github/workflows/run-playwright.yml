@@ -27,4 +27,5 @@ jobs:
       - name: Rodar script do relatório
         run: node extractIssuesFromProject.js
         env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          COOKIES_GITHUB_PROJECT: ${{ secrets.COOKIES_GITHUB_PROJECT }}
