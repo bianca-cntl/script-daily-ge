@@ -2,7 +2,7 @@ name: Script Daily GE
 
 on:
   schedule:
-    - cron: '0 13 * * *' # 10h no horário de Brasília (13h UTC)
+    - cron: '0 13 * * 1-5' # às 10h BRT (13h UTC), somente de segunda a sexta
   workflow_dispatch:  # permite rodar manualmente pelo GitHub se quiser
 
 jobs:
